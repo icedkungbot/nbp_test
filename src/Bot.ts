@@ -11,6 +11,8 @@ import {
 import {GuildInfo} from "./music/GuildInfo";
 import {GuildMusicManager} from "./music/GuildMusicManager";
 import {CommandManager} from "./commands/Command";
+import * as dotenv from "dotenv";
+dotenv.config();
 
 export class Bot {
   private commandManger: CommandManager;
