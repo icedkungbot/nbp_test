@@ -3,6 +3,9 @@
   "version": "2.0.0-SNAPSHOT",
   "private": true,
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "precommit": "tslint -c tslint.json -p tsconfig.json",
     "build": "tsc",
